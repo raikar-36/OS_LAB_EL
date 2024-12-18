@@ -1,0 +1,1 @@
+gcc `pkg-config gtk+-3.0 --cflags` os.c stack_implementation.c queue_implementation.c -o os `pkg-config gtk+-3.0 --libs`
